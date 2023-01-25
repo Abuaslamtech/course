@@ -1,1 +1,50 @@
+section {
+  padding: 1rem;
+}
+.chicken,
+.beef,
+.sushi {
+  background-color: black;
+  color: #fff;
+  width: 8rem;
+  margin-left: auto;
+  padding: 1rem;
+  text-align: center;
+}
+.chick,
+.be,
+.sus {
+  border: 2px solid black;
+  margin: 1rem;
+}
+@media (min-width: 992px) {
+  section {
+    display: flex;
+    flex-direction: row;
+  }
+  .two {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+  .two {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media (max-width: 767px) {
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+  .two {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
